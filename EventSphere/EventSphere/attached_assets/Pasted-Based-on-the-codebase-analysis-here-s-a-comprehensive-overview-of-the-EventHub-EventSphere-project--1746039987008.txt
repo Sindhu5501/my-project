@@ -1,0 +1,71 @@
+Based on the codebase analysis, here's a comprehensive overview of the EventHub/EventSphere project:
+
+Project Overview:
+This is a full-stack event management platform specifically designed for educational institutions, allowing students and event managers to organize and participate in various events.
+
+Tech Stack:
+
+Frontend: React + TypeScript, TailwindCSS, Shadcn UI components
+Backend: Node.js/Express
+Database: PostgreSQL (Neon serverless)
+ORM: Drizzle with Zod validation
+Authentication: Passport.js
+State Management: React Query & Zustand
+Routing: Wouter
+UI Animation: Framer Motion
+Key Features:
+
+User Management:
+Dual role system (Students and Event Managers)
+Custom registration flows for each role
+Profile management with role-specific fields
+Secure authentication system
+Event Management:
+Create and manage events (Event Managers)
+Event categorization (Technical/Non-Technical)
+Rich event details (description, location, date, capacity)
+Image upload support for event banners
+Event pricing options (free/paid)
+Registration System:
+Easy event registration for students
+Payment processing for paid events
+Capacity management
+Registration tracking
+Dashboard & Analytics:
+User-specific dashboards
+Event attendance tracking
+Registration statistics
+Event performance metrics
+Notification System:
+Real-time notifications
+Event updates
+Registration confirmations
+Custom notification preferences
+UI/UX Features:
+Responsive design
+Modern component library
+Animated transitions
+Loading states and preloaders
+Toast notifications
+Form validation
+Error handling
+Security Features:
+Protected routes
+Role-based access control
+Secure file uploads
+Input validation
+Session management
+The project follows modern web development practices with:
+
+Type safety using TypeScript
+Component-based architecture
+Responsive design principles
+REST API architecture
+Schema validation
+Clean folder structure
+Modular component design
+Consistent styling system
+Error boundary implementation
+Progressive loading
+Optimized performance
+The platform is designed to be scalable and maintainable, with clear separation of concerns and well-organized code structure.
